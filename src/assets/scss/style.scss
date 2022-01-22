@@ -1,0 +1,21 @@
+@import "_colors";
+.app {
+  display: grid;  
+  font-family: Arial, Helvetica, sans-serif;
+  grid-template-areas: "header" "conteudo" "footer";
+  grid-template-columns: auto;
+  grid-template-rows: 50px 100vh auto;
+}
+
+.header {
+  background-color: $sucess-color;
+  grid-area: header;
+}
+.conteudo {
+  background-color: $warning-color;
+  grid-area: "conteudo";
+}
+.footer {
+  grid-area: "footer";
+  background-color: $info-color;
+}

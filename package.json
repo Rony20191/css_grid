@@ -1,0 +1,15 @@
+{
+  "name": "gridLayoutCss",
+  "version": "1.0.0",
+  "description": "grid layout and sass",
+  "main": "index.js",
+  "author": "Rony201911",
+  "license": "MIT",
+  "scripts": {
+    "scss": "cd src/assets/ && node-sass  --include-path -watch sass  scss -o css"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "sass": "^1.49.0"
+  }
+}

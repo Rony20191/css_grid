@@ -1,0 +1,60 @@
+/* line 1, scss/populares.scss */
+.populares {
+  padding: 3rem 0;
+  width: 100%; }
+
+/* line 5, scss/populares.scss */
+.populares__conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  grid-area: conteudo;
+  padding: 1rem 0;
+  width: 100%; }
+
+/* line 13, scss/populares.scss */
+.populares__card {
+  display: grid;
+  background-color: #fdfdfd;
+  grid-template-areas: "card-imagem" "card-corpo";
+  grid-template-columns: 100%;
+  grid-template-rows: 173px auto;
+  margin: 1rem;
+  width: 20%; }
+  /* line 21, scss/populares.scss */
+  .populares__card:hover {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    transform: scale(1.1);
+    transition: 0.2s ease-in; }
+
+/* line 30, scss/populares.scss */
+.populares__card___imagem {
+  grid-area: card-imagem;
+  height: 100%;
+  width: 100%; }
+
+/* line 35, scss/populares.scss */
+.populares__card___corpo {
+  grid-area: card-corpo;
+  padding: .75rem;
+  display: grid;
+  grid-gap: .5rem;
+  grid-template-areas: "card-corpo-title" "card-corpo-conteudo";
+  grid-template-rows: 50px auto; }
+
+/* line 44, scss/populares.scss */
+.populares__card___titulo {
+  font-size: 1.5rem;
+  color: #333333; }
+
+/* line 48, scss/populares.scss */
+.populares__card___data {
+  font-size: .9rem;
+  color: #888888; }
+
+/* line 53, scss/populares.scss */
+.populares__itens {
+  display: flex;
+  flex-direction: row;
+  align-items: space-around; }
